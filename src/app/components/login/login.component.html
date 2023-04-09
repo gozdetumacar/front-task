@@ -1,0 +1,26 @@
+<div class="background">
+    <img class="loginLogo" src="assets/src/loginLogo.svg">
+    <div class="card cardContainer">
+        <div class="card-body">
+            <div class="row text-center">
+                <label>IK Portala Hoş Geldiniz</label>
+                <span class="loginSpan">Devam etmek için oturum açın.</span>
+                <img class="loginCardImage" src="assets/src/loginCardImage.png">
+                <mat-form-field>
+                    <input (input)="removeDisabled()" id="name" class="form-control" placeholder="Kullanıcı Adı">
+                    <input (input)="removeDisabled()" type="password" id="psw" class="form-control" placeholder="Şifre">
+                    <span class="psw float-right">Şifremi Unuttum</span>
+                </mat-form-field> 
+                <button disabled routerLink="/home" class="loginButton" id="loginButton" mat-flat-button color="primary">
+                    Giriş Yap
+                </button>
+                <span class="footerSpan">Hesabınız yok mu? <a class="footerSpanLink">Üye Ol</a></span>
+            </div>
+            
+        </div>
+      
+        
+    </div>
+</div>
+
+<router-outlet></router-outlet>

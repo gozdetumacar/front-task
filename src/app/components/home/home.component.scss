@@ -1,0 +1,136 @@
+$primary-color: #773EBD;
+.card{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    overflow-y: auto;
+}
+
+.card-header{
+    background-color: $primary-color;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    color: #fff;
+    padding: 24px;
+}
+
+.helloSpan{
+    font-size: 16px;
+}
+
+.dateSpan{
+    font-size: 12px;
+}
+
+.userIcon{
+    margin-left: 18px;
+    margin-top: 12px;
+}
+
+.days{
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.daysLabel{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+hr{ 
+  
+    border: none;
+    border-left: 1px solid ;
+    height: 50px;
+    width: 1px;    
+    color: #fff;   
+}
+
+.inlineColor{
+    background-color: #7E47C1;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.card-body{
+    background-color: #f8f8f8;
+}
+
+.docButton{
+    border-radius: 10px;
+    background-color: #6DDA6B;
+    color: #fff;
+    margin-right: 2px;
+}
+
+.payButton{
+    border-radius: 10px;
+    background-color: #7861D7;
+    color: #fff;
+}
+
+.docIcon, .payIcon{
+    margin-right: 6px;
+}
+
+label{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.allLink{
+    text-decoration: none;
+    color: #773DBD;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.birthdayDiv{
+    background-color: #773DBD;
+    border-radius: 16px;
+    padding: 20px;
+    color: #fff;
+    font-size:14px;
+}
+
+.birthdayCake{
+    background-color: #fff;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.smallBirthday{
+    position: initial;
+    margin-right: -8px;
+}
+
+.birthdayNo{
+    font-size: 12px;
+    margin-left: 12px;
+}
+
+.eventTitle{
+    font-size: 18px;
+    color: #773DBD;
+    font-weight: bold;
+}
+
+.eventDate{
+    font-size: 14px;
+    color: #00000066;
+    font-weight: bold;
+}
+
+.addIconDiv{
+    bottom: 100px;
+    position: absolute;
+    background: #fff;
+    width: -webkit-fill-available;
+    display: none;
+}
+
+.addIconDivSpan{
+    margin-left: 16px;
+    font-size: 18px;
+}
